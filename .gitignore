@@ -1,1 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
+# Virtual env
+.venv/
+env/
+venv/
+
+# Logs
+logs/
+*.log
+
+# Data
+data/
+storage/
+*.csv
+
+# Models (large files)
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# Streamlit cache
+.streamlit/secrets.toml
